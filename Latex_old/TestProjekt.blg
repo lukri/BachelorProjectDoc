@@ -1,0 +1,9 @@
+This is BibTeX, Version 0.99cThe top-level auxiliary file: TestProjekt.aux
+A level-1 auxiliary file: einfuehrung.aux
+A level-1 auxiliary file: anhang.aux
+The style file: alphadin.bst
+Database file #1: literatur.bib
+A bad cross reference---entry "Kolmogorov2005"
+refers to entry "DBLP:conf/cvpr/2005", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/cvpr/2005"
+(There was 1 error message)
