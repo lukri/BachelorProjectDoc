@@ -1,2 +1,2 @@
-# Bachelor Project Doc
+# Bachelor Project Document
 Documentation for the Bachelor Project
