@@ -1,0 +1,24 @@
+thesis.tex auskommentiert linie 28: %\usepackage{pgfplots}
+und linie 29: %\usepgfplotslibrary{groupplots}
+
+good to know
+\noindent
+
+~\cite{Name}
+
+~\ref{sec:sectionname}    insert the label
+
+
+executable\footnote{The software is available at \url{https://github.com/awaelchli/bachelor_thesis}.} 
+
+
+
+\section{Stereoscopic Displays}
+\label{sec:stereoscopic_displays}
+
+
+\chapter{Introduction}
+\section{Motivation}
+\subsection*{Oblique Projection}
+
+with * the section, subsection aso. will not be in the enumeration
