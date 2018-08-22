@@ -1,6 +1,11 @@
 thesis.tex auskommentiert linie 28: %\usepackage{pgfplots}
 und linie 29: %\usepgfplotslibrary{groupplots}
 
+% Helper package for TODOs.
+\usepackage{todonotes} 
+zeile 38 wieder auskommentieren
+
+
 good to know
 \noindent
 
@@ -22,3 +27,5 @@ executable\footnote{The software is available at \url{https://github.com/awaelch
 \subsection*{Oblique Projection}
 
 with * the section, subsection aso. will not be in the enumeration
+
+

@@ -1,5 +1,7 @@
 \documentclass[a4paper]{report}
 
+%\includeonly{Chapters/chapter1, Chapters/chapter2}
+
 \usepackage{natbib}
 \bibpunct{[}{]}{,}{a}{}{;}
 \usepackage{fancyheadings}
@@ -17,7 +19,8 @@
 \usepackage[hidelinks]{hyperref}
 
 % Packages for graphics and plots
-\usepackage[pdftex]{graphicx}
+%\usepackage[pdftex]{graphicx}
+\usepackage[draft]{graphicx}
 \usepackage{adjustbox}
 \usepackage{caption, subcaption}
 \usepackage{listings}
@@ -35,7 +38,7 @@
 \usepackage{dirtytalk}
 
 % Helper package for TODOs.
-%\usepackage{todonotes}
+\usepackage{todonotes}
 
 % Show frames around blocks
 %\usepackage{showframe}
@@ -55,7 +58,7 @@
 \rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\rm\thepage}}
 \cfoot{}
 
-\graphicspath{{Figures/}}
+\graphicspath{{../Figures/}}
 
 \begin{document}
 
@@ -106,7 +109,7 @@
 \newpage{\pagestyle{empty} \cleardoublepage}
 
 \begin{appendix}
-	%\include{Chapters/appendix}
+	\include{Chapters/appendix}
 	\newpage{\pagestyle{empty} \cleardoublepage}
 \end{appendix}
 
@@ -122,6 +125,6 @@
 \bibliography{bibliography}
 
 % This is required since 2012!!
-\includepdf{Erklaerung-filled.pdf}
+\includepdf[draft]{Erklaerung-filled.pdf}
 
 \end{document}
