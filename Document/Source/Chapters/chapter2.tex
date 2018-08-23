@@ -4,22 +4,43 @@ In this chapter the basis for the project is evaluated. In foresight at this
 
 not clear, whether the AR-Library will build on top of this library
 
+So it is more to understand the concept and to see, whether the basics work
 
 \section{What WebGL is}
 put to introduction
 
 \section{Library for WebGL}
-three.js vs babylon vs other vs one
+three.js vs babylon vs other vs own
+
+(choose library in foresight to cardboard)
+
+
+This chapter is mainly to understand the basics and see, what’s working
+A look at some tutorials how to create an webGl engine shows, that it gets quite fast very complex.
+
 
 \section{Setup web development environment}
 
+IDE from C9, belonging now to AWS (amazone web servises). Fortunatelly, any existing accounts still be working. New accounts have to registered in the new place (TODO). As an important point, it provides a server to run and test the code directly without having to setup any other applications than a browser e.g. Google Chrome. 
 
 
+\section{Main Stuff}
 
-(choose library in foresight to cardboard)
-This chapter is mainly to understand the basics and see, what’s working
-A look at some tutorials how to create an webGl engine shows, that it gets quite fast very complex.
-So it is more to understand the concept and to see, whether the basics work
+Three.js has an own website with a documentation on how to use this library which can be found at \url{https://threejs.org/}.
+\subsection*{Base code}
+In their documentation, in the chapter \emph{Creating a scene}, a simple demo is provided an example in the section \emph{The result}, which I rebuild here. The code example can be copied in a HTML-file that i named \emph{demo2.1-base.html}. The main JavaScript-file, which basically is the library is the \emph{three.js} file. This can be downloaded from url and put into the folder \emph{javascripts} located in the subfolder named \emph{third-party}. It has to be embeded in the main HTML-file demo2.1-base.html. At this stage the demo has two files:
+\begin{itemize}
+    \item demo2.1-base.html
+    \item third-party/javascripts/three.js
+\end{itemize}
+\noindent
+The output is a green rotating cube on a black background.
+
+The demo code of the base is available in the \emph{Applications}
+folder under \emph{Chapter2}. This project is also available online on GitHub\footnote{The project is available at \url{https://github.com/lukri/bachelor-project}.} 
+
+For the following steps of evolution of the demo, the main HTML-file is copied and renamed each time and the self made code is inside the new file. The used third party scripts are located in the subfolder named third-party. They stay untouched.
+
 
 
 
@@ -33,8 +54,15 @@ At this state of the development the choose of a library is questionable in resp
 Undoubtedly it serves well 
 
 
+to mention, there is also a check for webgl. integriert und so, bruchts hie aber nonid
+
+
 \subsection*{used web services}
 
 The tested 
 
 They provide both a GitHub synchronization, which gives the possibility to backup code in a comfortable way.
+
+The future of those services is not quite clear, as some will fuse with another web services such as AWS. In the case of ShareLatex there are plans to come together with Overleafe.
+
+Could use local IDE, but would have to setup a server because of the cross over platform issues.
