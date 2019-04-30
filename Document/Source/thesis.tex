@@ -19,9 +19,9 @@
 \usepackage[hidelinks]{hyperref}
 
 % Packages for graphics and plots
-%\usepackage[pdftex]{graphicx}
-\usepackage[draft]{graphicx}
-\usepackage{adjustbox}
+\usepackage[pdftex]{graphicx}
+%\usepackage[draft]{graphicx}
+%\usepackage{adjustbox}
 \usepackage{caption, subcaption}
 \usepackage{listings}
 \usepackage{pdfpages}
@@ -58,7 +58,7 @@
 \rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\rm\thepage}}
 \cfoot{}
 
-\graphicspath{{../Figures/}}
+\graphicspath{{Document/Figures/}}
 
 \begin{document}
 
@@ -68,7 +68,7 @@
 \author{Lukas D. Riesen}
 \betreuer{Prof. Dr. Matthias Zwicker}
 \ort{Bern}
-\datum{August 2018}
+\datum{April 2019}
 
 \pagenumbering{roman} \setcounter{page}{1}
 \maketitle
@@ -122,7 +122,7 @@
 \addcontentsline{toc}{chapter}{\numberline{}Bibliography}
 \bibliographystyle{abbrvnat}
 %\nocite{*}
-\bibliography{bibliography}
+\bibliography{bibliography.bib}
 
 % This is required since 2012!!
 \includepdf[draft]{Erklaerung-filled.pdf}
